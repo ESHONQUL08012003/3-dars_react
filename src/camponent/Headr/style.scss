@@ -1,0 +1,31 @@
+.header {
+  padding: 40px 10px;
+
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    strong {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 0.3px;
+      color: #252733;
+    }
+
+    .user {
+      padding-left: 32px;
+      border-left: 1px solid #dfe0eb;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: right;
+      color: #252733;
+    }
+  }
+}

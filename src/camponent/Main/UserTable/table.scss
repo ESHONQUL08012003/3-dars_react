@@ -1,0 +1,28 @@
+table{
+  margin-top: 30px;
+
+  th{
+    font-size: 20px;
+    font-weight: bolder;
+    color:#2c3e50;
+  }
+
+    td{
+      color:#4e6379;
+      font-weight: bold;
+    }
+
+  .btn-edit{
+    background-color:white;
+    color: #e74c3c;
+    border: none;
+    font-size: 25px
+  }
+
+  .btn-delet{
+    color: red;
+    background-color: white;
+    border: none;
+    font-size: 25px;
+  }
+}
