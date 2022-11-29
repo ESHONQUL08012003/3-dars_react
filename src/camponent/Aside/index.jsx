@@ -1,7 +1,7 @@
 import React from "react";
 import { logo } from "../../assets";
 import { Overview } from "../../assets";
-// import {Tickets} from "../../assets";
+import {Tickets} from "../../assets";
 import {Ideas} from "../../assets"
 import {Contacts} from "../../assets"
 import {Agents} from "../../assets"
@@ -23,7 +23,7 @@ function index() {
           </li>
 
           <li className="aside__list-item">
-            <img src={require("../../assets/svg/subscription.svg")} alt={"icon"} />
+            <img src={Tickets} alt={"icon"} />
             <strong>Tickets</strong>
           </li>
 

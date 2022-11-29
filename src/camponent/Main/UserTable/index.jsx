@@ -19,14 +19,19 @@ function index(props) {
 
           {data.map((user) => {
             return (
-              
               <tbody>
                 <tr>
                   <td>{user.id}</td>
                   <td>{user.first_name}</td>
                   <td>+998 97 167 47 48</td>
                   <td>
-                    <span className="py-2 px-3 bg-success text-white rounded-pill">active</span>
+                    <span
+                      className={`py-2 px-3 ${
+                        user.online ? "bg-success" : "bg-danger"
+                      }  text-white rounded-pill`}
+                    >
+                      {user.online ? "active" : "sleep"}
+                    </span>
                   </td>
                   <td>
                     <div className="d-flex justify-content-center gap-3 ">
@@ -40,7 +45,6 @@ function index(props) {
                   </td>
                 </tr>
               </tbody>
-              
             );
           })}
         </table>
